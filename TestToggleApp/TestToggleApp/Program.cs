@@ -15,6 +15,8 @@ namespace TestToggleApp
         {
             Console.WriteLine("We test toggle dll here! And it will work nice with jenkins deploy");
 
+            LoadModule();
+            
             // TODO dyn load a C .dll 
 
             // TODO dyn load a c++ mfc dll
@@ -23,6 +25,14 @@ namespace TestToggleApp
             
             Console.Write("\nPress any key to continue... ");
             Console.ReadLine();
+        }
+
+        static void LoadModule()
+        { 
+            // We should have a generic say hello 
+            // and a specific client hello loaded
+            // dynamicly. Independent of how jenkins 
+            // deploy.
         }
     }
 }
