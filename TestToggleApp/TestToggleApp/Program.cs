@@ -13,7 +13,7 @@ namespace TestToggleApp
         // the goal is to isolate specific features for a specific client
         static void Main(string[] args)
         {
-            Console.WriteLine("We test toggle dll here! Ant it will work nice with jenkins");
+            Console.WriteLine("We test toggle dll here! And it will work nice with jenkins deploy");
 
             // TODO dyn load a C .dll 
 
