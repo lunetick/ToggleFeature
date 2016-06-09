@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestToggleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("We test toggle dll here! Ant it will work nice with jenkins");
+            Console.Write("\nPress any key to continue... ");
+            Console.ReadLine();
+        }
+    }
+}
