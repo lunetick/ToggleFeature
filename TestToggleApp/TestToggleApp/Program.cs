@@ -8,6 +8,9 @@ namespace TestToggleApp
 {
     class Program
     {
+        // Purpose of this app is to show how simple it can be
+        // to load dynamicly a dll to call a function, even mixing c#, c and c++
+        // the goal is to isolate specific features for a specific client
         static void Main(string[] args)
         {
             Console.WriteLine("We test toggle dll here! Ant it will work nice with jenkins");
